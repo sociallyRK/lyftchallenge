@@ -9,8 +9,10 @@
 # 1) detour is defined as the total additional distance the driver needs to go beyond normal route
 # 2) all distances are straight line shots
 # methodology: calculate both routes and see which one is less
-# optimization: 
-
+# optimization: Methodology could be improved using Haversine formula for distances:
+# http://www.movable-type.co.uk/scripts/latlong.html or by using the Google Maps API 
+# 3) My formula focuses on the detour optimization. 
+# 4) I have attached a distance formula calculation in HTML 
 
 coordinates =[[1,1],[2,5],[4,3],[4,4]]
 
